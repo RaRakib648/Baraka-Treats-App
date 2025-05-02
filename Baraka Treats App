@@ -1,0 +1,9 @@
+// Baraka Treats - PWA React App (simplified template)
+import React from "react"; import { Card, CardContent } from "@/components/ui/card";
+export default function BarakaTreatsApp() { return ( 
+
+Baraka Treats
+
+Halal & Delicious Snacks
+<section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"> <Card> <CardContent> <h2 className="text-xl font-semibold">ঝাল চিপস</h2> <p>Spicy halal chips with unique masala blend.</p> <button className="mt-2 px-4 py-1 bg-red-500 text-white rounded-xl">অর্ডার করুন</button> </CardContent> </Card> <Card> <CardContent> <h2 className="text-xl font-semibold">Fruit Juice</h2> <p>Fresh and natural fruit juice with no added sugar.</p> <button className="mt-2 px-4 py-1 bg-green-500 text-white rounded-xl">অর্ডার করুন</button> </CardContent> </Card> <Card> <CardContent> <h2 className="text-xl font-semibold">Lollipop</h2> <p>Colorful lollipops made with halal ingredients.</p> <button className="mt-2 px-4 py-1 bg-purple-500 text-white rounded-xl">অর্ডার করুন</button> </CardContent> </Card> </section> <footer className="text-center mt-10 text-sm text-gray-500"> © 2025 Baraka Treats. All rights reserved. </footer> </main> 
+); }
